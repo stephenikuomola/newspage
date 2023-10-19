@@ -1,0 +1,21 @@
+{
+  "name": "news-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraversetheDOM/newspage.git"
+  },
+  "keywords": [],
+  "author": "Stephen Ikuomola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TraversetheDOM/newspage/issues"
+  },
+  "homepage": "https://github.com/TraversetheDOM/newspage#readme"
+}
