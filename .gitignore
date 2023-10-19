@@ -17,3 +17,9 @@
 
 # Avoid accidental upload of workspce settings
 .vscode
+
+# Avoid accidental upload of node modules folder
+node_modules
+
+# Avoid accidental upload of the large parcel-cache file from the parcel bundler. 
+.parcel-cache
