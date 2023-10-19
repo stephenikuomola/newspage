@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/TraversetheDOM/newspage/issues"
   },
-  "homepage": "https://github.com/TraversetheDOM/newspage#readme"
+  "homepage": "https://github.com/TraversetheDOM/newspage#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
 }
