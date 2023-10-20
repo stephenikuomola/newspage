@@ -19,6 +19,6 @@
 		"no-unreachable": "error"
     }, 
     "ignorePatterns": [
-        "node_modules", ".parcel-cache", "dist", "package-lock.json"
+        "/node_modules", "/parcel-cache", "/package-lock.json", "/dist/*.js"
     ]
 }
