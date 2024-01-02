@@ -6,6 +6,11 @@
     "Ikuomola",
     "liga",
     "nocheck",
-    "truetype"
+    "slnt",
+    "slntwght",
+    "truetype",
+    "variablefont",
+    "webfont",
+    "wght"
   ]
 }
