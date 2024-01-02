@@ -33,3 +33,11 @@
   03
   The Growth of Gaming
   How the pandemic has sparked fresh opportunities.
+
+
+
+#Notes
+- We will create three sections for the landing page. 
+  - The first section will be named main-news
+  - The second section will be named aside-news
+  - The third section will be named footer-news. 
