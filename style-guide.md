@@ -1,6 +1,6 @@
 # News page style-guide
 
-The project will be built to be responsive across two devices: 
+The project will be built to be responsive across two devices:
 
 - Mobile Devices - 375px
 - Desktop Devices - 1440px
@@ -8,12 +8,12 @@ The project will be built to be responsive across two devices:
 ## Color
 
 ```css
---soft-orange: hsl(35, 77%, 62%); 
---soft-red: hsl(5, 85%, 63%); 
---off-white: hsl(36, 100%, 99%); 
---grayish-blue: hsl(233, 8%, 79%); 
---dark-grayish-blue: hsl(236, 13%, 42%); 
---very-dark-grayish-blue: hsl(240, 100%, 5%); 
+--soft-orange: hsl(35, 77%, 62%);
+--soft-red: hsl(5, 85%, 63%);
+--off-white: hsl(36, 100%, 99%);
+--grayish-blue: hsl(233, 8%, 79%);
+--dark-grayish-blue: hsl(236, 13%, 42%);
+--very-dark-grayish-blue: hsl(240, 100%, 5%);
 ```
 
 ## Gap
@@ -92,16 +92,16 @@ The project will be built to be responsive across two devices:
 ## Typography
 
 ```css
---ff-Inter-sans-serif: var(--ff-Inter), sans-serif; 
---ff-Inter: 'Inter'; 
---fw-100: 100; 
+--ff-Inter-sans-serif: var(--ff-Inter), sans-serif;
+--ff-Inter: 'Inter';
+--fw-100: 100;
 --fw-200: 200;
 --fw-300: 300;
 --fw-400: 400;
 --fw-500: 500;
 --fw-600: 600;
 --fw-700: 700;
---fw-800: 800; 
+--fw-800: 800;
 --line-height-none: 1;
 --line-height-tight: 1.25;
 --line-height-snug: 1.375;
@@ -117,60 +117,63 @@ The project will be built to be responsive across two devices:
 --font-feature-settings: 'clig' off, 'liga' off;
 
 /* Font Sizes */
---fs-1: 0.875rem; 
---fs-2: 0.9375rem; 
---fs-3: 1.125rem; 
---fs-4: 1.25rem; 
---fs-5: 2.0rem; 
---fs-6: 2.5rem; 
---fs-7: 3.5rem; 
+--fs-1: 0.875rem;
+--fs-2: 0.9375rem;
+--fs-3: 1.125rem;
+--fs-4: 1.25rem;
+--fs-5: 2rem;
+--fs-6: 2.5rem;
+--fs-7: 3.5rem;
 ```
 
 ## Font Face
 
 ```css
-
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/inter-v13-latin-regular.woff2') format('woff2'), 
-       url('/assets/fonts/inter-v13-latin-regular.woff') format('woff'), 
-       url('/assets/fonts/inter-v13-latin-regular.ttf') format('truetype'); 
+  src:
+    url('/assets/fonts/inter-v13-latin-regular.woff2') format('woff2'),
+    url('/assets/fonts/inter-v13-latin-regular.woff') format('woff'),
+    url('/assets/fonts/inter-v13-latin-regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('/assets/fonts/inter-v13-latin-700.woff2') format('woff2'), 
-       url('/assets/fonts/inter-v13-latin-700.woff') format('woff'),
-       url('/assets/fonts/inter-v13-latin-700.ttf') format('truetype'); 
+  src:
+    url('/assets/fonts/inter-v13-latin-700.woff2') format('woff2'),
+    url('/assets/fonts/inter-v13-latin-700.woff') format('woff'),
+    url('/assets/fonts/inter-v13-latin-700.ttf') format('truetype');
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
-  src: url('/assets/fonts/inter-v13-latin-800.woff2') format('woff2'), 
-       url('/assets/fonts/inter-v13-latin-800.woff') format('woff'), 
-       url('/assets/fonts/inter-v13-latin-800.ttf') format('truetype');  
+  src:
+    url('/assets/fonts/inter-v13-latin-800.woff2') format('woff2'),
+    url('/assets/fonts/inter-v13-latin-800.woff') format('woff'),
+    url('/assets/fonts/inter-v13-latin-800.ttf') format('truetype');
 }
 
 /* This font face would be for the variable fonts */
 @font-face {
-	font-display: swap; 
-	font-family: 'Inter'; 
-	font-style: normal; 
-	font-weight: 100 800; 
-	src: url('/assets/fonts/') format('woff2-variations'), 
-			 url('/assets/fonts/') format('woff2') tech('variations'),
-			 url('/assets/fonts/') format('woff-variations'), 
-			 url('/assets/fonts/') format('woff') tech('variations'), 
-			 url('/assets/fonts/') format('ttf-variations'), 
-			 url('/assets/fonts/') format('ttf') tech('variations');
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 800;
+  src:
+    url('/assets/fonts/') format('woff2-variations'),
+    url('/assets/fonts/') format('woff2') tech('variations'),
+    url('/assets/fonts/') format('woff-variations'),
+    url('/assets/fonts/') format('woff') tech('variations'),
+    url('/assets/fonts/') format('ttf-variations'),
+    url('/assets/fonts/') format('ttf') tech('variations');
 }
 ```
