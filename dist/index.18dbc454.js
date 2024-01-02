@@ -591,15 +591,15 @@ class NavigationComponent {
         this.#nav.addEventListener("click", this.#handleMobileNavigation);
     }
     /**
-   * 
-   * @param {Event} evtObj - The click event carried out by the user. 
+   *
+   * @param {Event} evtObj - The click event carried out by the user.
    * @return {void}
    */ #handleMobileNavigation(evtObj) {
         const eventTarget = evtObj.target;
         if (!(eventTarget instanceof HTMLElement)) return;
         /** @type {HTMLButtonElement | null} */ const navBtn = eventTarget.closest(".menuBtn");
         if (!navBtn) return;
-        // On mobile devices it is true that the menu is closed when the user clicks the device. So when that is the case what do we want to do. 
+        // On mobile devices it is true that the menu is closed when the user clicks the device. So when that is the case what do we want to do.
         /** @type {Boolean} */ const closedMenu = navBtn.getAttribute("aria-expanded") === "false" || false;
         navBtn?.nextElementSibling?.setAttribute("aria-hidden", `${!closedMenu}`);
         navBtn?.setAttribute("aria-expanded", `${closedMenu}`);
