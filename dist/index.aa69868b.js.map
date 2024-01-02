@@ -1,0 +1,1 @@
+{"mappings":"AAAA,OAAO,gBAAgB,CAAC,QAAQ,CAAC;IAC/B,QAAQ,GAAG,CAAC,OAAO;AACrB","sources":["src/js/main.js"],"sourcesContent":["window.addEventListener(\"load\", (event) => {\n  console.log(event, 'Check'); \n})"],"names":[],"version":3,"file":"index.aa69868b.js.map","sourceRoot":"/__parcel_source_root/"}
