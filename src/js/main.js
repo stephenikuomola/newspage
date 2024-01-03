@@ -8,12 +8,16 @@ window.addEventListener('load', () => {
   ).matches;
 
   /** @type {HTMLDivElement | null} */
-  const navMenu = document.querySelector("div[class='nav-menu']");
+  const navMenu = document.querySelector('div[class=\'nav-menu\']');
   navMenu?.setAttribute('aria-hidden', `${mobileDevice ? 'true' : 'false'}`);
 
   new NavigationComponent();
 });
 
+
+/**
+ * Create a navigation component. 
+ */
 class NavigationComponent {
   #nav = /** @type {HTMLElement} */ (document.querySelector('.nav-container'));
 
@@ -29,7 +33,6 @@ class NavigationComponent {
    * @param {Event} evtObj - The click event carried out by the user.
    * @return {void}
    */
-
   #handleMobileNavigation(evtObj) {
     const eventTarget = evtObj.target;
     if (!(eventTarget instanceof HTMLElement)) return;
