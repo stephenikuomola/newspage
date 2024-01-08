@@ -5,7 +5,7 @@
 	A fully responsive landing page for a news page showcasing what is happening in the tech space. <br />
   Responsive for all devices using HTML, CSS and JavaScript.
   <br />
-  <a href="https://walter-incorporated-news.netlify.app/"
+  <a href="https://walter-incorporated-news.vercel.app/"
     ><strong>➥ Live Demo</strong></a
   >
 </div>
