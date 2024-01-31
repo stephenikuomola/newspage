@@ -496,7 +496,7 @@ h4[class="footer-news__list__heading"] > a {
   }
 }
 
-@media only screen and (width >= 90em) {
+@media only screen and (width >= 75em) {
   heading {
     margin-bottom: var(--gap-3_75);
   }

@@ -560,7 +560,7 @@ Media query for tablet devices
 /*****
 Media query for desktop devices 
 *****/
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 75em) {
   heading {
     margin-bottom: var(--gap-3_75);
   }
@@ -612,4 +612,6 @@ Media query for desktop devices
   li[class="footer-news__list"] > article {
     flex-direction: unset;
   }
+
+
 }
